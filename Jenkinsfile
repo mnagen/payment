@@ -7,7 +7,7 @@ pipeline {
     stage('Git clone') {
       steps {
         
-        git branch:'main', url: 'https://github.com/mnagen/payment.git'
+        git branch:'main', url: 'https://github.com/kiran998972/payment.git'
         echo "cloning the code from git repository"
       }}
       
